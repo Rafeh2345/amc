@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Wonders Enterprises logo">
+  <circle cx="120" cy="120" r="120" fill="#0f1015"/>
+  <path d="M49 76h24l26 56-14 30L49 76Z" fill="#fff"/>
+  <path d="M87 76h24l26 56-14 30L87 76Z" fill="#fff"/>
+  <rect x="145" y="76" width="60" height="16" fill="#fff"/>
+  <rect x="145" y="112" width="46" height="16" fill="#fff"/>
+  <rect x="145" y="148" width="60" height="16" fill="#fff"/>
+</svg>
