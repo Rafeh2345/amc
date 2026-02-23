@@ -46,29 +46,39 @@ body {
     color: #38bdf8;
 }
 
-/* HERO */
+/* HERO */ /* HERO */
+
 .hero {
-    .hero {
     background:
-        linear-gradient(
-            rgba(15, 23, 42, 0.65),
-            rgba(15, 23, 42, 0.65)
-        ),
-        url('images/mining-site.jpg');
+        linear-gradient(rgba(15, 23, 42, 0.65),
+        rgba(15, 23, 42, 0.65)),
+        url('images/IMG_3643.jpeg');
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     min-height: 90vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.
 
 }
 }
 
 .hero h2 {
-    font-size: 42px;
-    margin-bottom: 15px;
+    .hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
 }
 
 .hero p {
