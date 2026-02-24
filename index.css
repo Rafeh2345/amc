@@ -137,6 +137,43 @@ body {
   background: var(--brand-light);
 }
 
+
+.commodities-section {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(10, 79, 134, 0.16), transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(12, 36, 64, 0.14), transparent 48%),
+    #eef3f9;
+}
+
+.commodities-intro {
+  text-align: center;
+  max-width: 760px;
+}
+
+.commodity-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.95rem;
+}
+
+.commodity-item {
+  padding: 1rem 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #0a4f86, #0c2440);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 26px rgba(10, 39, 66, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.commodity-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(10, 39, 66, 0.35);
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
