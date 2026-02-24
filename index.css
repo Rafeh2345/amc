@@ -50,6 +50,8 @@ body {
   align-items: center;
   padding: 0.1rem 0;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .logo-mark {
@@ -94,6 +96,14 @@ body {
   font-size: clamp(2.15rem, 4vw, 3.35rem);
   line-height: 1.13;
   margin-bottom: 1rem;
+}
+
+.hero-logo {
+  width: min(320px, 72vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 1.2rem;
+  filter: drop-shadow(0 20px 24px rgba(0, 0, 0, 0.45));
 }
 
 .hero p {
