@@ -46,22 +46,17 @@ body {
 }
 
 .logo {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0 #0a1b2f, 2px 2px 0 #071220, 3px 3px 8px rgba(0, 0, 0, 0.45);
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  padding: 0.1rem 0;
 }
 
 .logo-mark {
-  width: 3rem;
-  height: 3rem;
+  width: clamp(3.5rem, 7vw, 4.5rem);
+  height: clamp(3.5rem, 7vw, 4.5rem);
   object-fit: contain;
   flex-shrink: 0;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
 }
 
 .navbar nav {
@@ -154,35 +149,6 @@ body {
   font-size: 1.1rem;
 }
 
-.news-section {
-  background: #ffffff;
-}
-
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.2rem;
-  margin-top: 2rem;
-}
-
-.news-card {
-  background: var(--brand-light);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 1.4rem;
-  box-shadow: 0 8px 22px rgba(12, 36, 64, 0.08);
-}
-
-.news-card h4 {
-  margin-bottom: 0.55rem;
-  color: var(--brand-navy);
-  font-size: 1.08rem;
-}
-
-.news-card p {
-  margin: 0;
-}
-
 .btn {
   display: inline-block;
   background: var(--brand-blue);
@@ -209,10 +175,6 @@ footer {
   .navbar .container {
     flex-direction: column;
     gap: 0.75rem;
-  }
-
-  .logo {
-    font-size: 1.25rem;
   }
 
   .navbar nav {
