@@ -211,56 +211,6 @@ body {
   filter: brightness(0.93);
 }
 
-.pakistan-flag-wrap {
-  margin-top: 1.2rem;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.pakistan-flag-3d {
-  width: min(240px, 100%);
-  aspect-ratio: 3 / 2;
-  position: relative;
-  border-radius: 8px;
-  background:
-    linear-gradient(90deg, #fff 0 23%, #01411c 23% 100%);
-  box-shadow:
-    0 12px 22px rgba(12, 36, 64, 0.24),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-  transform: perspective(700px) rotateY(-16deg) rotateX(6deg);
-  transform-origin: right center;
-}
-
-.pakistan-flag-3d .crescent {
-  position: absolute;
-  width: 28%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: #fff;
-  left: 47%;
-  top: 29%;
-}
-
-.pakistan-flag-3d .crescent::after {
-  content: '';
-  position: absolute;
-  width: 75%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: #01411c;
-  left: 26%;
-  top: 11%;
-}
-
-.pakistan-flag-3d .star {
-  position: absolute;
-  left: 64%;
-  top: 30%;
-  color: #fff;
-  font-size: clamp(1rem, 2.5vw, 1.7rem);
-  transform: rotate(25deg);
-}
-
 footer {
   background: #081729;
   color: #9fb2c8;
