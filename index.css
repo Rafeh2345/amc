@@ -96,6 +96,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.hero-logo {
+  width: min(320px, 72vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 1.2rem;
+  filter: drop-shadow(0 20px 24px rgba(0, 0, 0, 0.45));
+}
+
 .hero p {
   max-width: 720px;
   margin: 0 auto 1.8rem;
