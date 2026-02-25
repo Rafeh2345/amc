@@ -90,6 +90,7 @@ body {
     url('images/IMG_3643.jpeg') center/cover no-repeat;
 }
 
+.hero h1,
 .hero h2 {
   font-size: clamp(2.15rem, 4vw, 3.35rem);
   line-height: 1.13;
