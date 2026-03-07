@@ -289,6 +289,16 @@ body {
   filter: brightness(0.93);
 }
 
+
+
+.buyer-section {
+  background: #ffffff;
+}
+
+.buyer-section p strong {
+  color: var(--brand-navy);
+}
+
 footer {
   background: #081729;
   color: #9fb2c8;
