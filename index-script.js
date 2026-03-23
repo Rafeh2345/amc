@@ -1,20 +1,5 @@
-const slides = Array.from(document.querySelectorAll('.hero-slide'));
 const panels = Array.from(document.querySelectorAll('.section-panel'));
 const toggles = Array.from(document.querySelectorAll('.section-toggle'));
-
-let activeSlideIndex = 0;
-
-function showSlide(index) {
-  slides.forEach((slide, slideIndex) => {
-    slide.classList.toggle('active', slideIndex === index);
-  });
-}
-
-function nextSlide() {
-  if (!slides.length) return;
-  activeSlideIndex = (activeSlideIndex + 1) % slides.length;
-  showSlide(activeSlideIndex);
-}
 
 function openPanel(targetPanel) {
   panels.forEach((panel) => {
@@ -42,6 +27,3 @@ toggles.forEach((button) => {
     openPanel(panel);
   });
 });
-
-showSlide(activeSlideIndex);
-window.setInterval(nextSlide, 2600);
