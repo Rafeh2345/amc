@@ -84,41 +84,16 @@ body {
 }
 
 .hero {
-  position: relative;
   min-height: 92vh;
   display: grid;
   place-items: center;
-  overflow: hidden;
   color: #fff;
-}
-
-.hero-slides,
-.hero-slide,
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-}
-
-.hero-slide {
-  opacity: 0;
-  background-position: center;
-  background-size: cover;
-  transform: scale(1.04);
-  transition: opacity 0.8s ease, transform 5s ease;
-}
-
-.hero-slide.active {
-  opacity: 1;
-  transform: scale(1.1);
-}
-
-.hero-overlay {
-  background: linear-gradient(115deg, rgba(6, 21, 40, 0.9), rgba(10, 79, 134, 0.7));
+  background:
+    linear-gradient(115deg, rgba(6, 21, 40, 0.9), rgba(10, 79, 134, 0.7)),
+    url('images/IMG_3643.jpeg') center/cover no-repeat;
 }
 
 .hero-content {
-  position: relative;
-  z-index: 1;
   text-align: center;
   padding: 5rem 0;
 }
